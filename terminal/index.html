@@ -8,6 +8,7 @@
     <head>
         <title>Trumpet Terminal</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body class="blue-grey lighten-5">
@@ -18,6 +19,8 @@
                 </div>
             </nav>
         </header>
+
+        <div id="firebaseui-auth-container" />
         <main>
             <div class="container">
                 <div class="row">
@@ -46,10 +49,12 @@
             </div>
         </main>
 
-        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
-        
+        <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/ui/4.3.0/firebase-ui-auth.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="terminal.js"></script>
     </body>

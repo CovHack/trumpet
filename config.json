@@ -1,11 +1,10 @@
 {
     "firebase": {
-                    "apiKey": "ENTER_API_KEY_HERE",
-                    "projectId": "ENTER_PROJECT_ID_HERE"
-                },
+        "apiKey": "AIzaSyA8HnDLbC1ZObDVJGiv4HpH6dbSROjAwCc",
+        "projectId": "signage-dc57c"
+    },
 
-    "terminalPass":     "EnterYourPasswordHere",
-                
+
     "hackathonStart":   "1970-01-01T12:00:00.000Z",
     "hackathonEnd":     "1970-02-01T12:00:00.000Z",
 
